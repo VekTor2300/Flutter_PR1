@@ -5,32 +5,32 @@
 
 #### Ход работы:
 
-<img src="Main.png" alt="video demo"/>
+<img src="main.png" alt="video demo"/>
 
 #### Данны код в классе main нужен для отображения верстки в классах Wellcom, Meditate, iPhone13mini.
 
 #### Окно №1
 
-<img src="Screen1.png" alt="video demo1"/>
+<img src="WelcomeCode.png" alt="video demo1"/>
 
-<img src="Screen1View.png" alt="video demo2"/>
+<img src="Welcome.png" alt="video demo2"/>
 
-#### В классе Meditate я использовала контейнер 500 на 930 белого цвета для фона, также использовала контейнер с текстом "Meditate" с шрифтом plusJakartSans. Также использовала IconButton для кнопки с изображением лупы. Все остальное было проделано по такому же принципу.
+#### В классе Wellcome я использовал контейнера для фона с цветом по RGB (3, 158, 162), также для кнопок был использован элемент TextButton в контенере с размером 200 на 45, и три кнопки. Картинку я экспортировал с сайта Figma в макете и вставил ее при помощи Image(image: AssetImage(''),).
 
 #### Окно №2
 
-<img src="Screen2.png" alt="video demo3"/>
+<img src="MeditateCode.png" alt="video demo3"/>
 
-<img src="Screen2View.png" alt="video demo4"/>
+<img src="Meditate.png" alt="video demo4"/>
 
-#### В классе Wellcome также я использовала контейнера для фона с цветом по RGB (3, 158, 162), также для кнопок был использован элемент TextButton в контенере с размером 200 на 45, и так три кнопки. Картинку я экспортировала с сайта Figma в макете и вставила ее при помощи Image(image: AssetImage(''),).
+#### В классе Meditate я использовал контейнер 500 на 930 белого цвета для фона, также использовал контейнер с текстом "Meditate" с шрифтом plusJakartSans, использовал IconButton для кнопки с изображением лупы. Все остальное было проделано по такому же принципу.
 
 #### Окно №3
 
-<img src="Screen3.png" alt="video demo5"/>
+<img src="iPhone13miniCode.png" alt="video demo5"/>
 
-<img src="Screen3View.png" alt="video demo6"/>
+<img src="iPhone13mini.png" alt="video demo6"/>
 
-#### В классе iPhone13mini также я использовала контейнера для верхнего фона с цветом light blue, также экспортировала картинку с сайта Figma в нашем макете и наложила картинку на синий фон. Также для кнопок был использован элемент IconButton и TextButton в контенере.
+#### В классе iPhone13mini я использовал контейнер для верхнего фона с цветом light blue, также экспортировал картинку с сайта Figma в макете и наложил картинку на синий фон. Также для кнопок был использован элемент IconButton и TextButton в контенере.
 
 #### Вывод: в данной практической работе были разработаны 3 окна по примеру из макета
