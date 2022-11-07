@@ -7,7 +7,7 @@
 
 <img src="main.png" alt="video demo"/>
 
-#### Данны код в классе main нужен для отображения верстки в классах Wellcom, Meditate, iPhone13mini.
+#### Данный код в классе main нужен для отображения верстки в классах Wellcom, Meditate, iPhone13mini.
 
 #### Окно №1
 
