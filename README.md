@@ -1,65 +1,63 @@
 # Практическая работа №2
 
-### Тема: Реализация классов, отвечающих за работу базы данных
+#### Тема: Реализация классов, отвечающих за работу базы данных
 
-### Цель работы: научиться реализовывать классы и модели.
+#### Цель работы: научиться реализовывать классы и модели.
 
-### Ход работы:
+#### Необходимо создать модель БД.
 
-### Для начала работы с базой данных необходимо создать даталогическую модель базы данных.
+<img src="Screenshot_3.png" alt="erWin"/>
 
-<img src="Screenshot_3.png" alt="video demo"/>
+#### Необходимо скачать библиотеки, которые необходимы для работы с базой данных.
 
-### Необходимо скачать библиотеки, которые нужны в работе с базой данных.
+<img src="dependency.png" alt="dependency"/>
 
-<img src="dependency.png" alt="video demo"/>
+#### В папке common создадим файл data_base_request.
 
-### В папке common создадим файл data_base_request.dart.
+<img src="request.png" alt="requests"/>
 
-<img src="request.png" alt="video demo"/>
+#### В папке model создадим модели БД:
 
-### В папке model создадим модели базы данных:
+<img src="modelSupplier.png" alt="modelSupplier"/>
 
-<img src="modelSupplier.png" alt="video demo"/>
+#### Модели используемые в проекте:
 
-### Девять моделей:
+<img src="models.png" alt="models"/>
 
-<img src="models.png" alt="video demo"/>
+#### В папке entity создаем сущности, пример сущности поставщика:
 
-### В папке entity создаем сущности:
+<img src="entitySupplier.png" alt="entitySupplier"/>
 
-<img src="entitySupplier.png" alt="video demo"/>
+####  Сущности использумые в проекте:
 
-###  Девять сущностей:
+<img src="entities.png" alt="entity"/>
 
-<img src="entities.png" alt="video demo"/>
+#### В папках db создадим файл data_base_helper.
 
-### В папках db создадим файл data_base_helper.dart.
+#### В этом файле будут хранится функции добавления, удаления, обновления базы.
 
-### В этом файле будут хранится функции добавления, удаления, обновления базы.
+#### - init - инициализация базы данных для всех платформ
 
-### - init - инициализация базы данных для всех платформ
+<img src="init.png" alt="init"/>
 
-<img src="init.png" alt="video demo"/>
+#### - onUpdateTable - обновление таблиц
 
-### - onUpdateTable - обновление таблиц
+<img src="update.png" alt="update"/>
 
-<img src="update.png" alt="video demo"/>
+#### - onCreateTable - создание таблиц 
 
-### - onCreateTable - создание таблиц 
+<img src="create.png" alt="create"/>
 
-<img src="create.png" alt="video demo"/>
+#### - onInitTable - заполнение таблиц данными
 
-### - onInitTable - заполнение таблиц данными
+<img src="initTable.png" alt="initTable"/>
 
-<img src="initTable.png" alt="video demo"/>
+#### - onDropDataBase - удаление базы данных 
 
-### - onDropDataBase - удаление базы данных 
+<img src="delete.png" alt="delete"/>
 
-<img src="delete.png" alt="video demo"/>
+#### Демонстрация базы данных:
 
-### Демонстрация базы данных:
+<img src="viewdb.png" alt="dataBaseView"/>
 
-<img src="viewdb.png" alt="video demo"/>
-
-### Вывод: в данной практической работе были реализованы классы и модели, отвечающие за работу базы данных для склада.
+### Вывод: в ходе данной практической работы были реализованы классы, модели и сущности, отвечающие за работу БД для склада магазина автозапчастей.
