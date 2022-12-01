@@ -22,6 +22,22 @@ class SignInState extends State<SignIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Center(child: Text('Awesome AppBar')),
+        flexibleSpace: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [
+                  const Color(0xFF3366FF),
+                  const Color(0xFF00CCFF),
+                ],
+                begin: const FractionalOffset(0.0, 0.0),
+                end: const FractionalOffset(1.0, 0.0),
+                stops: [0.0, 1.0],
+                tileMode: TileMode.clamp),
+          ),
+        ),
+        ),
       body: Center(
         child: Column(
           children: [
@@ -136,6 +152,11 @@ class SignInState extends State<SignIn> {
                           }
                         });
                       },
+                      style:  ElevatedButton.styleFrom(
+                primary: Colors.red,
+                textStyle: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w300)),
                       child: const Text("Вход"),
                     ),
                     const Padding(
@@ -150,6 +171,11 @@ class SignInState extends State<SignIn> {
                           ),
                         );
                       },
+                      style:  ElevatedButton.styleFrom(
+                primary: Colors.red,
+                textStyle: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w300)),
                       child: const Text("Регистрация"),
                     ),
                   ],
