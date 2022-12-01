@@ -22,15 +22,15 @@
 ### Далее создаем папку screens, в ней файлы, в которых будет верстка авторизации, регистрации и окон для админа с пользователем.
  <img src="Screenshot_5.png" alt="video demo"/>
 ### Рисунок 6 – screens
- <img src="Screenshot_5.png" alt="video demo"/>
+ <img src="Screenshot_6.png" alt="video demo"/>
 ### Рисунок 7 - окно регистрации с валидацией
- <img src="Screenshot_5.png" alt="video demo"/>
+ <img src="Screenshot_7.png" alt="video demo"/>
 ### Рисунок 8 - окно авторизации с валидацией
- <img src="Screenshot_5.png" alt="video demo"/>
+ <img src="Screenshot_8.png" alt="video demo"/>
 ### Рисунок 9 - окно админа
-<img src="Screenshot_5.png" alt="video demo"/>
+<img src="Screenshot_9.png" alt="video demo"/>
 ### Рисунок 10 - окно пользователя
-<img src="Screenshot_5.png" alt="video demo"/>
+<img src="Screenshot_10.png" alt="video demo"/>
 ### Рисунок 12 - пользователи в бд
  
 ### Вывод: в ходе данной практической работы была сделана авторизация и регистрация для пользователей.
