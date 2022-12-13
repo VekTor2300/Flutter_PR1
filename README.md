@@ -25,12 +25,6 @@
 
 <img src="Screenshot_3.png" alt="video demo2"/>
 
-#### Темная тема
-
-<img src="Screenshot_4.png" alt="video demo3"/>
-
-#### Светлая тема
-
-<img src="Screenshot_5.png" alt="video demo4"/>
+#### Подробный отчет в документе
 
 #### Вывод: в данной практической работе был разработан проект с использованием Cubit и были выполнены все цели
