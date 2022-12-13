@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_pract1/views/counter_view.dart';
+import 'package:flutterPrak4/views/counter_view.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 
 void main() {

@@ -65,7 +65,7 @@ class CounterView extends StatelessWidget {
                 Get.changeTheme(
                     Get.isDarkMode ? ThemeData.light() : ThemeData.dark());
               }),
-              child: const Icon(Icons.sunny),
+              child: const Icon(Icons.mode_night),
             ),
           ],
         ),
